@@ -32,3 +32,25 @@ body {
 .double-b {
   grid-column: span 2;
 }
+
+.output {
+  display: flex;
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, .75);
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.previous-calc {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.5rem;
+}
+
+.current-calc {
+  color: white;
+  font-size: 2.5rem;
+}
